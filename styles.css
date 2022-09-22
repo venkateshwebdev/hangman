@@ -1,0 +1,73 @@
+
+body{
+  margin: 0px;
+  overflow-x: hidden;
+}
+.main{
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gameName{
+  text-align: center;
+  position: relative;
+}
+
+.Name{
+  margin: 0px;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 75px;
+}
+.gameTextEntry{
+  position: relative;
+  top: 10%;
+  font-family: 'Koulen', cursive;
+  letter-spacing: 0.5rem;
+}
+#mainImage{
+  position: relative;
+  right: 0px;
+
+}
+#playButton{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 16px;
+  visibility: hidden;
+
+}
+.hangmanImageBlock{
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width:74px;
+  top: 7%;
+}
+.chancesdes{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  position: relative;
+  top: 10%;
+  transition: transform 0.4s;
+
+}
+.chancesdes:hover{
+  transform: scale(1.2);
+}
+.gamedes{
+  position: relative;
+  top: 10%;
+  font-family: 'Koulen', cursive;
+}
+.PlayAgainButton{
+  position: relative;
+  top: 10%;
+  /* visibility: hidden; */
+}
